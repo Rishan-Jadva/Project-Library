@@ -8,10 +8,34 @@
 </head>
 <body>
     <h1>Rndm's Library</h1>
-    <div class="container">
+    <dialog id="dialog">
+        <form>
+            <label>
+                Author: 
+                <input id="author" type="text">
+            </label>
+            <label>
+                Title: 
+                <input id="title" type="text">
+            </label>
+            <label>
+                Number of Pages: 
+                <input id="pages" type="number">
+            </label>
+            <label>
+                Read?
+                <input id="read" type="checkbox" name="read">
+            </label>
+            <div class="button-container2">
+                <button id="saveButton">Save</button>
+                <button id="closeDialog">Close</button>
+            </div>
+        </form>
+    </dialog>
+    <div id="container" class="container">
     </div>
     <div class="button-container">
-        <button>New Book</button>
+        <button id="showDialog">New Book</button>
     </div>
 </body>
 <script src="script.js"></script>

@@ -37,7 +37,37 @@ h1 {
 
 button{
     background-color: #a0d2eb;
-    color:#494d5f;
+    color:black;
     padding: 10px 15px;
     border-radius: 20px;
+}
+
+dialog{
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    padding: 15px;
+}
+
+label{
+    display: block;
+    padding: 5px 0;
+}
+
+.button-container2{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 125px;
+}
+
+.book{
+    padding: 15px;
+}
+
+.book *{
+    margin: 5px 0;
+}
+
+.book button{
+    padding: 5px 5px;
 }
